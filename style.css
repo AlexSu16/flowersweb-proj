@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Arial; /* Import and Change to Roboto */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-txt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding-right: 20px;
+}
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+article h1 {
+    font-size: 48px;
+    font-weight: 900px;
+}
+article p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
