@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     margin: 0;
-    background-color: #1F2937;
     color: #F9FAF8;
     font-family: Arial; /* Import and Change to Roboto */
 }
@@ -9,6 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
 }
 .logo-txt {
     display: flex;
@@ -28,9 +28,18 @@ li a {
     font-size: 18px;
     color: #E5E7EB;
 }
-main {
+main section {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.start-page {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 article h1 {
     font-size: 48px;
@@ -39,4 +48,14 @@ article h1 {
 article p {
     font-size: 18px;
     color: #E5E7EB;
+}
+.additional-page {
+    color: #1F2937;
+    font-size: 36px;
+}
+.quote-page {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
 }
