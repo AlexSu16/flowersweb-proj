@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Blossoms Shop</title>
-    </head>
-    <body>
-        <header>
-            <div class="logo-txt">
-                <img src="img/flwr-logo.png" width="100px" height="100px" alt="logo">
-                <h1>Blossoms</h1>
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <main>
-            <section class="start-page">
-                <article>
-                    <h1>Welcome to Blossoms</h1>
-                    <p>Some paragraph...</p>
-                </article>
-                <img src="#" alt="preview image">
-            </section>
 
-            <section class="additional-page">
-                <h1>Some random information.</h1>
-            </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fresh flowers and thoughtful bouquets from Blossoms.">
+  <title>Blossoms | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-            <section class="quote-page">
-                <p>Some quote..</p>
-            </section>
-        </main>
+<body>
+  <div class="dark-top">
+    <header class="site-header container">
+      <a class="logo" href="index.html">Blossoms 🌸</a>
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+      <label class="menu-icon" for="menu-toggle"><span></span><span></span><span></span></label>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <section class="hero container">
+      <div class="hero-copy">
+        <h1>Flowers for every beautiful moment</h1>
+        <p>Brighten someone's day with fresh, thoughtfully arranged bouquets made with love.</p>
+        <a class="button" href="shop.html">Shop bouquets</a>
+      </div>
+      <img class="hero-image" src="images/hero-flowers.svg" alt="Illustration of a colorful flower bouquet" width="600"
+        height="400">
+    </section>
+  </div>
+  <main>
+    <section class="features container" aria-labelledby="features-title">
+      <h2 id="features-title">Why choose Blossoms?</h2>
+      <div class="feature-list">
+        <article class="feature">
+          <div class="feature-icon">🌷</div>
+          <h3>Fresh blooms</h3>
+          <p>Carefully chosen flowers for every bouquet.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">💐</div>
+          <h3>Handcrafted</h3>
+          <p>Beautiful arrangements made with care.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">🎁</div>
+          <h3>Lovely gifts</h3>
+          <p>Thoughtful flowers for special occasions.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">❤️</div>
+          <h3>Made with love</h3>
+          <p>Every detail is chosen to bring joy.</p>
+        </article>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="quote-inner container">
+        <blockquote>“Flowers always make people better, happier, and more helpful; they are sunshine, food and medicine
+          for the soul.”</blockquote>
+        <p class="quote-credit">— Luther Burbank</p>
+      </div>
+    </section>
+    <section class="cta-wrap container">
+      <div class="cta">
+        <div>
+          <h2>Bring a little joy home!</h2>
+          <p>Explore our bouquets and find the perfect flowers.</p>
+        </div><a class="button button-outline" href="shop.html">Shop now</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Copyright © 2026 Blossoms</p>
+  </footer>
+</body>
 
-        <footer></footer>
-    </body>
 </html>
